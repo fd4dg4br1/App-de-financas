@@ -27,7 +27,7 @@ class MobileNavBar {
         this.menuBar.addEventListener("mouseleave", () => this.menuOut());
     }
     addClickEvent(){
-        this.menuBar.addEventListener("click", () => this.menuEnter());
+        this.mobileMenu.addEventListener("click", () => this.menuEnter());
     }
     init() {
         if(this.mobileMenu){
